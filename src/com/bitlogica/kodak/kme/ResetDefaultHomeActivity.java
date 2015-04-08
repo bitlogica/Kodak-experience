@@ -1,14 +1,11 @@
 package com.bitlogica.kodak.kme;
 
 import android.app.Activity;
-import android.content.ComponentName;
 import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.widget.Toast;
 
-public class ResetDefaultHome extends Activity {
+public class ResetDefaultHomeActivity extends Activity {
 
-	public ResetDefaultHome() { }
+	public ResetDefaultHomeActivity() { }
 
 	@Override
 	protected void onResume() {
