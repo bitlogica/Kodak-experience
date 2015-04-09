@@ -2,16 +2,24 @@ package com.bitlogica.kodak.kme;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.os.Bundle;
 
 public class ResetDefaultHomeActivity extends Activity {
 
 	public ResetDefaultHomeActivity() { }
 
 	@Override
-	protected void onResume() {
-		super.onResume();
+	protected void onCreate(Bundle savedInstanceState) {
 		getBaseContext().sendBroadcast(new Intent("LAUNCHER_ENABLE_SIMPLE_UI").addCategory("KODAK_UI"));
 		finish();
+		super.onCreate(savedInstanceState);
+	}
+
+	@Override
+	protected void onNewIntent(Intent intent) {
+		getBaseContext().sendBroadcast(new Intent("LAUNCHER_ENABLE_SIMPLE_UI").addCategory("KODAK_UI"));
+		finish();
+		super.onNewIntent(intent);
 	}
 
 
