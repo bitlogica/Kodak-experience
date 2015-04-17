@@ -1,8 +1,11 @@
+.DS_Store
 
-*.apk
+.settings
+bin
+gen
 
-*.dex
 
-*.cache
-
-bin/*
+# Crashlytics auto-generated files
+crashlytics-build.properties
+com_crashlytics_export_strings.xml
+res/values/com_crashlytics_export_strings.xml
