@@ -12,6 +12,6 @@
         android:baselineAlignBottom="false"
         android:cropToPadding="false"
         android:scaleType="centerInside"
-        android:src="@drawable/ic_kodak_launcher" />
+        android:src="@drawable/kodak_launcher_icon" />
 
 </LinearLayout>

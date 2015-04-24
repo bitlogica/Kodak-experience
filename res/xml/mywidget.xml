@@ -5,7 +5,7 @@
    android:updatePeriodMillis="0" 
    android:minHeight="60dp" 
    android:initialLayout="@layout/activity_main"
-   android:previewImage="@drawable/ic_kodak_launcher"
+   android:previewImage="@drawable/kodak_launcher_icon"
    android:resizeMode="none"
    android:widgetCategory="keyguard|home_screen" >
 </appwidget-provider>
